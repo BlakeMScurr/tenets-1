@@ -31,3 +31,6 @@ Date:   Wed Oct 17 17:45:51 2018 +1300
     Merge pull request #424 from BlakeMScurr/docs-update
     
     Update doc fields.
+request #424 from BlakeMScurr/docs-update
+    
+    Update doc fields.
