@@ -42,4 +42,5 @@ tenets:
             go.import_spec(depth = any):
               go.basic_lit:
                 kind == "string"
+                value == packageName kind == "string"
                 value == packageName
