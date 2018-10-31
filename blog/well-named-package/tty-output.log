@@ -1,0 +1,22 @@
+Constructing new git repo in temp folder... :: Thu Nov  1 12:56:14 NZDT 2018
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running: $HOME/scripts/rs -nc
+        -nogit
+        -noswap
+        $HOME/source/git/mullikine/codelingo/tenets/codelingo/k8/well-named-package/
+        /tmp/td_well-named-packageI6e9pO
+/usr/bin/rsync  -a -rtlhx -pug -s  --inplace --append   --exclude .cache  --exclude .git/ --exclude .gitignore --exclude TODO  --exclude '*~' --exclude '.#*'  $HOME/source/git/mullikine/codelingo/tenets/codelingo/k8/well-named-package/ /tmp/td_well-named-packageI6e9pO
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+/tmp/td_well-named-packageI6e9pO
+working_dir (initial): /tmp/td_well-named-packageI6e9pO
+Syncing your repo...
+Running review flow...
+Sorry, an error occurred while processing your request. Please try again.
+<Check slack error>
+exit status 1
+review finished
+Reformulate?
+working_dir (loop): /tmp/td_well-named-packageI6e9pO
+: B
+working_dir: /tmp/td_well-named-packageI6e9pO
+Continue?
