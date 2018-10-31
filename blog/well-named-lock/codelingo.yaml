@@ -35,4 +35,4 @@ tenets:
                         go.ident:
                           name == "sync"
                         go.ident:
-                          name == "Mutex"
+                          name == "Mutex"                          name == "Mutex"
