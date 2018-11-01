@@ -1,0 +1,40 @@
+Constructing new git repo in temp folder... :: Thu Nov  1 13:34:09 NZDT 2018
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running: $HOME/scripts/rs -nc
+        -nogit
+        -noswap
+        $HOME/source/git/mullikine/codelingo/tenets/codelingo/k8/shadowed-func-parameter/
+        /tmp/td_shadowed-func-parameterAT98t7
+/usr/bin/rsync  -a -rtlhx -pug -s  --inplace --append   --exclude .cache  --exclude .git/ --exclude .gitignore --exclude TODO  --exclude '*~' --exclude '.#*'  $HOME/source/git/mullikine/codelingo/tenets/codelingo/k8/shadowed-func-parameter/ /tmp/td_shadowed-func-parameterAT98t7
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+/tmp/td_shadowed-func-parameterAT98t7
+working_dir (initial): /tmp/td_shadowed-func-parameterAT98t7
+Syncing your repo...
+Running review flow...
+example.go:14:16
+    Identifier `err` := shadows parameter `err`. Rename one of them to make the code easier to read.
+    ...
+    func DoTheThing(reallyDoIt bool) (err error) {
+      if reallyDoIt {
+  +     result, err := tryTheThing()
+        if err != nil || result != "it worked" {
+          err = ErrDidNotWork
+    ...
+[o]pen [k]eep [d]iscard : k
+example.go:16:10
+    Identifier `err` := shadows parameter `err`. Rename one of them to make the code easier to read.
+    ...
+        result, err := tryTheThing()
+        if err != nil || result != "it worked" {
+  +       err = ErrDidNotWork
+        }
+      }
+    ...
+[o]pen [k]eep [d]iscard : k
+Done! 2 issues found.
+review finished
+Reformulate?
+working_dir (loop): /tmp/td_shadowed-func-parameterAT98t7
+: B
+working_dir: /tmp/td_shadowed-func-parameterAT98t7
+Continue?
