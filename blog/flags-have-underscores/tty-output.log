@@ -1,0 +1,22 @@
+Constructing new git repo in temp folder... :: Thu Nov  1 13:43:47 NZDT 2018
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running: $HOME/scripts/rs -nc
+        -nogit
+        -noswap
+        $HOME/source/git/mullikine/codelingo/tenets/codelingo/k8/flags-have-underscores/
+        /tmp/td_flags-have-underscoreseIK9Zp
+/usr/bin/rsync  -a -rtlhx -pug -s  --inplace --append   --exclude .cache  --exclude .git/ --exclude .gitignore --exclude TODO  --exclude '*~' --exclude '.#*'  $HOME/source/git/mullikine/codelingo/tenets/codelingo/k8/flags-have-underscores/ /tmp/td_flags-have-underscoreseIK9Zp
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+/tmp/td_flags-have-underscoreseIK9Zp
+working_dir (initial): /tmp/td_flags-have-underscoreseIK9Zp
+Syncing your repo...
+Running review flow...
+Sorry, an error occurred while processing your request. Please try again.
+<Check slack error>
+exit status 1
+review finished
+Reformulate?
+working_dir (loop): /tmp/td_flags-have-underscoreseIK9Zp
+: B
+working_dir: /tmp/td_flags-have-underscoreseIK9Zp
+Continue?
